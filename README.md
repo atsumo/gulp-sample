@@ -11,23 +11,23 @@ gulp-sample
 [http://gratimax.net/search-gulp-plugins/](http://gratimax.net/search-gulp-plugins/)
 
 ##plugins
-###CSS minify
+####CSS minify
 [https://github.com/chilijung/gulp-cssmin/](https://github.com/chilijung/gulp-cssmin/)
 
-### image minify
+#### image minify
 [https://github.com/sindresorhus/gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
 
-### js minify
+#### js minify
 [https://github.com/terinjokes/gulp-uglify](https://github.com/terinjokes/gulp-uglify)
 
-### html minify
+#### html minify
 [https://github.com/jonschlinkert/gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 
-###js concat
+####js concat
 [https://github.com/wearefractal/gulp-concat](https://github.com/wearefractal/gulp-concat)
 
-###不要なcssを消去
+####remove unuse css
 [https://github.com/ben-eb/gulp-uncss](https://github.com/ben-eb/gulp-uncss)
 
-### raname
+#### raname
 [https://github.com/hparra/gulp-rename](https://github.com/hparra/gulp-rename)
