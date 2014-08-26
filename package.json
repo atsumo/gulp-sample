@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/atsumo/gulp-sample/issues"
   },
-  "homepage": "https://github.com/atsumo/gulp-sample"
+  "homepage": "https://github.com/atsumo/gulp-sample",
+  "devDependencies": {
+    "gulp": "^3.8.7"
+  }
 }
