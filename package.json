@@ -1,0 +1,22 @@
+{
+  "name": "gulp-sample",
+  "version": "0.0.0",
+  "description": "gulp sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atsumo/gulp-sample.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "atsumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsumo/gulp-sample/issues"
+  },
+  "homepage": "https://github.com/atsumo/gulp-sample"
+}

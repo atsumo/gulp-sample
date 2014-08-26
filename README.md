@@ -1,4 +1,2 @@
 gulp-sample
-===========
-
-gulp-sample
+=======
