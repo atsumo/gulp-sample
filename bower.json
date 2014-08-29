@@ -1,0 +1,22 @@
+{
+  "name": "gulp-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/atsumo/gulp-sample",
+  "authors": [
+    "atsumo <bachisuta@gmail.com>"
+  ],
+  "description": "gulp sample",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0",
+    "lodash": "~2.4.1"
+  }
+}

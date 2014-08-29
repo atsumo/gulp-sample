@@ -28,5 +28,8 @@
     "gulp-uglify": "^0.3.2",
     "gulp-imagemin": "^1.0.1",
     "gulp-rename": "^1.2.0"
+  },
+  "dependencies": {
+    "del": "^0.1.2"
   }
 }
