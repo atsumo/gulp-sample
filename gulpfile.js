@@ -11,12 +11,14 @@ var paths = {
 };
 
 var gulp = require('gulp');
+var $ = require('gulp-load-plugins')();
+
 //rename
-var rename = require('gulp-rename');
+//var rename = require('gulp-rename');
 //css minify
-var cssmin = require('gulp-cssmin');
+//var cssmin = require('gulp-cssmin');
 //js minify
-var uglify = require('gulp-uglify');
+//var uglify = require('gulp-uglify');
 //del
 var del = require('del');
 
@@ -28,9 +30,9 @@ gulp.task('clean', function(callback) {
 // https://github.com/chilijung/gulp-cssmin/
 gulp.task('styles', function() {
   return gulp.src(paths.styles)
-    .pipe(cssmin())
+    .pipe($.cssmin())
     // min
-    .pipe(rename({ suffix: '.min' }))
+    .pipe($.rename({ suffix: '.min' }))
     .pipe(gulp.dest('dist'));
 });
 
@@ -38,8 +40,8 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
   console.log('start scripts');
   return gulp.src(paths.scripts)
-    .pipe(uglify())
-    .pipe(rename({suffix: '.min'}))
+    .pipe($.uglify())
+    .pipe($.rename({suffix: '.min'}))
     .pipe(gulp.dest('dist'));
 });
 
