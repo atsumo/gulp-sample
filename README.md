@@ -1,6 +1,8 @@
 gulp-sample
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/atsumo/gulp-sample.svg)](https://greenkeeper.io/)
+
 ##Install gulp
 ``` npm install --g gulp```
 
